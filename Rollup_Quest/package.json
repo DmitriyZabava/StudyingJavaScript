@@ -1,0 +1,15 @@
+{
+  "name": "rollup_quest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {   
+    "build": "rollup -c",
+    "start": "rollup -c -w",
+    
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["rollup"],
+  "author": "Dmitriy Zabava",
+  "license": "ISC"
+}
