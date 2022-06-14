@@ -3,13 +3,22 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {   
+  "scripts": {
     "build": "rollup -c",
     "start": "rollup -c -w",
-    
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["rollup"],
+  "keywords": [
+    "rollup"
+  ],
   "author": "Dmitriy Zabava",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.18.2",
+    "@rollup/plugin-babel": "^5.3.1",
+    "rollup-plugin-img": "^1.1.0",
+    "rollup-plugin-livereload": "^2.0.5",
+    "rollup-plugin-serve": "^1.1.0",
+    "rollup-plugin-styles": "^4.0.0"
+  }
 }
