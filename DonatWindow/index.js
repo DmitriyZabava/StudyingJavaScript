@@ -2,9 +2,8 @@ import './index.css';
 
 import { lisnerButton } from './utils/lisner';
 
+
+//import { donateForm } from './utils/content';
+//donateForm.renderDonateForm();
+
 lisnerButton();
-
-
-const inputField = document.querySelector('.donate-form__donate-input');       
-const donate = Number(inputField.value);
-console.log('donate', donate)
